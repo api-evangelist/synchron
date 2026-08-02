@@ -1,7 +1,30 @@
 aid: synchron
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synchron.png
 name: Synchron
-description: Synchron is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Synchron is a clinical-stage neurotechnology company developing an implantable
+  brain-computer interface (BCI). Its flagship device, the Stentrode, is placed
+  in a blood vessel near the motor cortex through a minimally invasive endovascular
+  procedure (via the jugular vein) rather than open brain surgery, letting people
+  with paralysis control digital devices with their thoughts. Synchron has
+  co-developed a Bluetooth-based interface aligned with Apple's BCI-HID protocol,
+  connecting brain signals to iPhone, iPad, and Vision Pro through Switch Control,
+  and runs a Cognitive AI division decoding neural data in real time. The Stentrode
+  is an investigational device under FDA and TGA clinical trials and is not yet
+  commercially approved. Synchron publishes no public developer API, SDK, or
+  documentation surface; this profile captures its corporate identity and probed
+  domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/synchron/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Brain-Computer Interface
+- Neurotechnology
+- Medical Devices
+- Implantable Devices
+- Health
+- Neurology
+- Assistive Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://synchron.com/
+- type: Blog
+  url: https://synchron.com/news
+- type: PrivacyPolicy
+  url: https://synchron.com/privacy
+- type: TermsOfService
+  url: https://synchron.com/terms
+- type: DomainSecurity
+  url: security/synchron-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
